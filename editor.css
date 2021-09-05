@@ -21,6 +21,10 @@ body {
 #escritaNome {
     margin-top: 20px;
 }
+#testeDesenvolvimento {
+    font-size: 25px;
+    font-weight: bold;
+}
 
 /* Perfil Pessoal */
 #parteEsquerda {
