@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Editor CSS -->
+    <link rel="stylesheet" type="text/css" href="editor.css" media="screen" />
+
+    <script type="text/javascript" src="calculadora.js"></script>
+</head>
+
+<body>
+    <container class="12">
+        <!-- Cabeçalho-->
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div id="navGeral" class="container-fluid">
+                    <a id="testeDesenvolvimento" class="navbar-brand" href="#">Teste de Desenvolvimento</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="buttonNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="navPrincipal">
+                                <a href="perfilPessoal.html"><button type="buttonCurriculo"
+                                        class="btn btn-dark">Currículo</button></a>
+                            </li>
+                            <li class="navPrincipal">
+                                <a href="formularioContrato.html"><button type="buttonFormulario"
+                                        class="btn btn-dark">Formulário</button></a>
+                            </li>
+                            <li class="navPrincipal">
+                                <a href="calculadora.html"><button type="buttonFormulario"
+                                        class="btn btn-dark">Calculadora</button></a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="row justify-content-center">
+
+                <div class="col-xl-6 col-lg-6 col-md-6">
+
+                    <div class="card o-hidden border-0 shadow-lg my-4">
+                        <div class="card-body p-0">
+                            <!-- Nested Row within Card Body -->
+                            <div class="row">
+                                <!-- <div class="col-md-3"></div> -->
+                                <div class="col-md-12">
+                                    <div class="p-5">
+                                        <div class="col-md-12 text-center">
+                                            <h3>Calculadora</h3>
+                                            <h6>Soma de dois números</h6>
+                                        </div>
+                                        <div class="row col-md-12">
+                                            <div class="row user">
+                                                <div class="col-md-6 form-group">
+                                                    <div class="col-md-12">
+                                                        <label for="">1° número</label>
+                                                        <input type="number" class="num1 form-control form-control-user"
+                                                            id="number1">
+                                                    </div> 
+                                                    <div class="col-md-12">
+                                                        <label for="">2° número</label>
+                                                        <input type="number"
+                                                            class="num2 form-control form-control-user" id="number2">
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <button onclick="soma()" class="buttonCalculadora btn btn-dark" id="btnSomar">
+                                                            Somar
+                                                        </button>
+                                                        <button onclick="limpa()" class="buttonCalculadora btn btn-dark" id="btnSomar">
+                                                            Limpar
+                                                        </button>
+                                
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label class="text-center">Resultado</label>
+                                                        <input id="resultado1" type="text" class="form-control form-control-user">
+                                                        <p class="resultado text-center"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr>
+
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-6"></div> -->
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+    </container>
+
+</body>
+
+</html>

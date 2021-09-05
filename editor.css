@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(41, 40, 40);
+}
+
+/* Nav de todas as páginas */
+
+.navPrincipal {
+    margin: 0 8px;
+}
+#navGeral {
+    background-color: rgba(141, 24, 24, 0.924);
+}
+#buttonNav {
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#testeDesenvolvimento {
+    margin-left: 80px;
+}
+#escritaNome {
+    margin-top: 20px;
+}
+
+/* Perfil Pessoal */
+#parteEsquerda {
+    background-color: rgba(148, 26, 26, 0.924);
+}
+.parteDireita {
+    background-color: rgb(41, 40, 40);
+}
+#imgPerfil {
+    border-radius: 50%;
+    margin-top: 20px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.contatos {
+    margin-top: 50px;
+    color: white;
+}
+.escrita {
+    color: white;
+    text-justify: auto;
+}
+
+.formularioGeral {
+    margin-bottom: 15px;
+}
+#btnEnviar {
+    width: 20%;
+    margin-left: 13px;
+}
+
+/* Formulario de Contrato */
+.textArea {
+   margin-top: 5px;
+}
+.buttonCalculadora {
+    margin-top: 20px;
+    margin: 10px;
+}
