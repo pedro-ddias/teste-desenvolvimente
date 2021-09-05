@@ -62,35 +62,37 @@
                                             <h1 class="h4 text-gray-900 mb-4">Formulário de Contato</h1>
                                         </div>
                                         <div class="formularioGeral row col-md-12">
-                                            <form action="https://api.staticforms.xyz/submit" method="POST" class="row col-md-12 user">
-                                                <input type="hidden" name="accessKey" value="ab984478-40a0-4e83-b3ff-3e56383185c9">
+                                            <form action="https://formsubmit.co.pedro.hdias@outlook.com" method="POST"
+                                                class="row col-md-12 user">
 
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label for="">Nome Completo</label>
-                                                        <input name="name" type="name" class="form-control form-control-user"
-                                                            id="name">
+                                                        <input name="name" type="text"
+                                                            class="form-control form-control-user" id="name" required />
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="">E-mail</label>
-                                                        <input name="email" type="email" class="form-control form-control-user"
-                                                            id="email">
+                                                        <input name="email" type="email"
+                                                            class="form-control form-control-user" id="email" required />
                                                     </div>
+                                                    <input type="hidden" name="_captcha" value="false">
+                                                    <input type="hidden" name="_next" value="false">
                                                     <div class="form-group">
                                                         <label for="">Assunto</label>
-                                                        <input name="subject" type="text" class="form-control form-control-user"
-                                                            id="assunto">
+                                                        <input name="subject" type="text"
+                                                            class="form-control form-control-user" id="assunto">
                                                     </div>
                                                 </div>
 
                                                 <div class="col-md-6">
                                                     <label for="">Descrissão</label>
-                                                    <textarea name="message" rows="6" cols="40" maxlength="500" type="text"
-                                                        class="textArea form-control form-control-user"
-                                                        ></textarea>
+                                                    <textarea name="message" rows="6" cols="40" maxlength="500"
+                                                        type="text"
+                                                        class="textArea form-control form-control-user"></textarea>
                                                 </div>
                                             </form>
-                                            
+
                                         </div>
 
                                         <!-- <div class="col-md-">
