@@ -62,9 +62,9 @@
                                             <h1 class="h4 text-gray-900 mb-4">Formulário de Contato</h1>
                                         </div>
                                         <div class="formularioGeral row col-md-12">
-                                            <form action="https://formsubmit.co.pedro.hdias@outlook.com" method="POST"
-                                                class="row col-md-12 user">
-
+                                            <form action="https://api.staticforms.xyz/submit" method="post" class="row col-md-12 user">
+                                                <input type="hidden" name="accessKey" value="3eff2a88-155b-4ad5-a83d-ab6e6b4c8d0f">
+                                                
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label for="">Nome Completo</label>
@@ -76,11 +76,10 @@
                                                         <input name="email" type="email"
                                                             class="form-control form-control-user" id="email" required />
                                                     </div>
-                                                    <input type="hidden" name="_captcha" value="false">
-                                                    <input type="hidden" name="_next" value="false">
+
                                                     <div class="form-group">
                                                         <label for="">Assunto</label>
-                                                        <input name="subject" type="text"
+                                                        <input name="message" type="text"
                                                             class="form-control form-control-user" id="assunto">
                                                     </div>
                                                 </div>
@@ -91,18 +90,20 @@
                                                         type="text"
                                                         class="textArea form-control form-control-user"></textarea>
                                                 </div>
+
+                                                </div>
+                                                <div class="row col-md-12">
+                                                    <hr>
+                                                    <a class="button1 btn btn-dark" id="btnEnviar">
+                                                        Enviar
+                                                    </a>
                                             </form>
 
                                         </div>
 
                                         <!-- <div class="col-md-">
                                             </div> -->
-                                        <div class="row col-md-12">
-                                            <hr>
-                                            <a class="button1 btn btn-dark" id="btnEnviar">
-                                                Enviar
-                                            </a>
-                                        </div>
+                                        
                                         <!-- <div class="col-md-4">
                                             </div> -->
 
